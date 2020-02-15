@@ -1,18 +1,13 @@
 ﻿namespace CorporateHotel.Domain
 {
-    public class EmployeeId
-    {
-
-    }
-
-    public class Employee
+    public class Company
     {
         private readonly string name;
-        public EmployeeId Id { get; }
+        public CompanyId Id { get; }
 
-        public Employee(string name)
+        public Company(string name)
         {
-            Id = new EmployeeId();
+            Id = new CompanyId();
             this.name = name;
         }
 
